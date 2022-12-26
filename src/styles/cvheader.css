@@ -1,0 +1,40 @@
+.Cv_header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 150px;
+  background-color: rgb(20, 62, 114);
+  color: #fff;
+  padding: 20px;
+}
+
+.Cv_header:hover .edit {
+  display: block;
+}
+
+.Cv_header__name h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.Cv_header__job h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.Cv_header__name--input {
+  margin-top: 10px;
+  width: 80%;
+  height: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.Cv_header__job--input {
+  margin-top: 6px;
+  width: 80%;
+  height: 40px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
