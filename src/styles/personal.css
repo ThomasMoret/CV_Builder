@@ -1,0 +1,87 @@
+.Personal {
+  padding: 20px;
+  position: relative;
+}
+
+.Personal:hover .edit {
+  display: block;
+}
+
+.Personal__image__edit {
+  width: 200px;
+  height: 220px;
+  position: relative;
+}
+
+.Personal__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Personal__image__edit--add__container {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Personal__image__edit--add {
+  height: 50px;
+  width: 50px;
+}
+
+.Personal__image__img {
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid white;
+  object-fit: cover;
+}
+
+.Personal__image__edit--img {
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid white;
+  object-fit: cover;
+}
+
+.Personal__details h2 {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.Personal__details h3 {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.Personal__details input {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.edit {
+  top: 5px;
+  right: 5px;
+}
+
+.save {
+  top: 5px;
+  right: 5px;
+}

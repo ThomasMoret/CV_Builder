@@ -1,44 +1,52 @@
 .edit {
   display: inline-block;
-  outline: none;
-  cursor: pointer;
-  font-weight: 600;
-  border-radius: 3px;
-  padding: 7px 14px;
+  outline: 0;
   border: 0;
-  color: #fff;
-  background: rgb(20, 62, 114);
-  line-height: 1.15;
+  cursor: pointer;
+  background-color: #4299e1;
+  border-radius: 4px;
+  padding: 4px 10px;
   font-size: 16px;
+  font-weight: 700;
+  color: white;
+  line-height: 26px;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   display: none;
 }
 
 .save {
   display: inline-block;
-  outline: none;
-  cursor: pointer;
-  font-weight: 600;
-  border-radius: 3px;
-  padding: 7px 14px;
+  outline: 0;
   border: 0;
-  color: #fff;
-  background: rgb(20, 62, 114);
-  line-height: 1.15;
+  cursor: pointer;
+  background-color: #4299e1;
+  border-radius: 4px;
+  padding: 4px 10px;
   font-size: 16px;
+  font-weight: 700;
+  color: white;
+  line-height: 26px;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
 }
 
-.save:hover {
-  transition: all 0.1s ease;
-  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #e7ebee;
-}
-
-.edit:hover {
-  transition: all 0.1s ease;
-  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #e7ebee;
+.delete {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #e53e3e;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  line-height: 26px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
 }

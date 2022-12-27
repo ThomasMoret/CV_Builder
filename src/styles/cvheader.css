@@ -29,6 +29,7 @@
   height: 40px;
   font-size: 2.5rem;
   font-weight: 600;
+  color: white;
 }
 
 .Cv_header__job--input {
@@ -37,4 +38,5 @@
   height: 40px;
   font-size: 1.5rem;
   font-weight: 400;
+  color: white;
 }

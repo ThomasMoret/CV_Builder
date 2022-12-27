@@ -3,8 +3,8 @@ import Button from "./Button";
 import "../styles/cvheader.css";
 
 const CvHeader = () => {
-  const [name, setName] = React.useState("Your Name");
-  const [jobTitle, setJobTitle] = React.useState("Your Job Title");
+  const [name, setName] = React.useState("");
+  const [jobTitle, setJobTitle] = React.useState("");
   const [editMode, setEditMode] = React.useState(false);
 
   const handleNameChange = (event) => {
@@ -44,11 +44,11 @@ const CvHeader = () => {
             type="text"
             value={jobTitle}
             onChange={handleJobTitleChange}
-            placeholder="Your Job Title"
+            placeholder="Your Job"
             className="Cv_header__job--input"
           />
         ) : (
-          <h2>{jobTitle < 1 ? "Your Job Title" : jobTitle}</h2>
+          <h2>{jobTitle < 1 ? "Your Job" : jobTitle}</h2>
         )}
       </div>
       <div className="Cv_header__buttons">

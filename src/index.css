@@ -9,7 +9,10 @@
 
 input {
   background-color: transparent;
-  color: #fff;
   border: none;
   outline: none;
+}
+
+.hidden {
+  display: none;
 }
