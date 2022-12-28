@@ -1,5 +1,9 @@
+.App {
+  background-color: #f7fafc;
+}
+
 .Cv_form {
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
   background: #fff;
   border: 1px solid #ccc;
@@ -9,8 +13,19 @@
   margin-bottom: 20px;
 }
 
+.Cv_form__main {
+  display: flex;
+  flex-direction: row;
+}
+
 .Cv_form__main__left {
   height: 100vh;
-  width: 250px;
+  width: 30%;
   background-color: rgb(221, 221, 221);
+}
+
+.Cv_form__main__right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
 }

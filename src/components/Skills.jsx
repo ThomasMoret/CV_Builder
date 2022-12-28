@@ -35,7 +35,7 @@ const Skills = () => {
       <div className="Skills__list">
         {skills.map((skill, index) => (
           <div className="Skills__list__item" key={index}>
-            <h3>{skill < 1 ? "Add a skill" : "- " + skill}</h3>
+            <h3>{skill < 1 ? "Add a skill" : skill}</h3>
             <Button
               onClick={() => handleDeleteClick(index)}
               text="DELETE"
