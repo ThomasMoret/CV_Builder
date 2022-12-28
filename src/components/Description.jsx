@@ -21,7 +21,7 @@ const Description = () => {
   return (
     <div className="Description">
       <div className="Description__title">
-        <h2>Description</h2>
+        <h2 className="title mt__20">Description</h2>
         <hr />
       </div>
       <div className="Description__list">
@@ -34,11 +34,11 @@ const Description = () => {
           />
         ) : (
           <div className="Description__list__item">
-            <h3>
+            <p className="small__font mt__10">
               {description < 1
                 ? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
                 : description}
-            </h3>
+            </p>
           </div>
         )}
       </div>

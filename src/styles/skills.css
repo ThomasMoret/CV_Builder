@@ -7,17 +7,6 @@
   display: block;
 }
 
-.Skills__title h2 {
-  margin-top: 10px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #2d3748;
-}
-
-.Skills__list {
-  margin-top: 10px;
-}
-
 .Skills__list__item {
   display: flex;
   align-items: center;
@@ -31,8 +20,5 @@
 }
 
 .Skills__list__item h3 {
-  margin-top: 10px;
-  font-size: 0.8rem;
-  font-weight: 400;
   width: 80%;
 }

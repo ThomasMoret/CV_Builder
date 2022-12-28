@@ -66,7 +66,7 @@ const Personal = () => {
         )}
       </div>
       <div className="Personal__details">
-        <h2>Personal Details</h2>
+        <h2 className="title mt__20">Personal Details</h2>
         <hr />
         <div className="Personal__details__email">
           {editMode ? (
@@ -75,10 +75,12 @@ const Personal = () => {
               value={email}
               onChange={handleEmailChange}
               placeholder="Your Email"
-              className="Personal__details__email--input"
+              className="small__font mt__10"
             />
           ) : (
-            <h3>{email < 1 ? "Your Email" : email}</h3>
+            <h3 className="small__font mt__10">
+              {email < 1 ? "Your Email" : email}
+            </h3>
           )}
         </div>
         <div className="Personal__details__phone">
@@ -88,10 +90,12 @@ const Personal = () => {
               value={phone}
               onChange={handlePhoneChange}
               placeholder="Your Phone"
-              className="Personal__details__phone--input"
+              className="small__font mt__10"
             />
           ) : (
-            <h3>{phone < 1 ? "Your Phone" : phone}</h3>
+            <h3 className="small__font mt__10">
+              {phone < 1 ? "Your Phone" : phone}
+            </h3>
           )}
         </div>
         <div className="Personal__details__address">
@@ -101,10 +105,12 @@ const Personal = () => {
               value={address}
               onChange={handleAddressChange}
               placeholder="Your Address"
-              className="Personal__details__address--input"
+              className="small__font mt__10"
             />
           ) : (
-            <h3>{address < 1 ? "Your Address" : address}</h3>
+            <h3 className="small__font mt__10">
+              {address < 1 ? "Your Address" : address}
+            </h3>
           )}
         </div>
       </div>

@@ -13,6 +13,30 @@ input {
   outline: none;
 }
 
+.small__font {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.medium__font {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.mt__10 {
+  margin-top: 10px;
+}
+
+.mt__20 {
+  margin-top: 20px;
+}
+
 .hidden {
   display: none;
 }

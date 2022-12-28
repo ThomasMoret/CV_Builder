@@ -7,19 +7,6 @@
   display: block;
 }
 
-.Description__title h2 {
-  margin-top: 20px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #2d3748;
-}
-
-.Description__list__item h3 {
-  margin-top: 10px;
-  font-size: 0.8rem;
-  font-weight: 400;
-}
-
 .Description__list__item__textarea {
   margin-left: -10px;
   font-size: 0.8rem;

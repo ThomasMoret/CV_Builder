@@ -6,6 +6,7 @@ import {
   Personal,
   Skills,
   Description,
+  Experiences,
 } from "./components";
 import "./App.css";
 
@@ -22,6 +23,7 @@ const App = () => {
           </div>
           <div className="Cv_form__main__right">
             <Description />
+            <Experiences />
           </div>
         </div>
       </div>

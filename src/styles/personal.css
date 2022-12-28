@@ -56,22 +56,3 @@
   border: 10px solid white;
   object-fit: cover;
 }
-
-.Personal__details h2 {
-  margin-top: 20px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #2d3748;
-}
-
-.Personal__details h3 {
-  margin-top: 10px;
-  font-size: 0.8rem;
-  font-weight: 400;
-}
-
-.Personal__details input {
-  margin-top: 10px;
-  font-size: 0.8rem;
-  font-weight: 400;
-}
